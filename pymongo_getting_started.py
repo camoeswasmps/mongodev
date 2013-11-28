@@ -8,7 +8,6 @@ connection = MongoClient('localhost',27017)
 db = connection.test
 
 #handle to names colection
-
 names = db.names
 
 item = names.find_one()
